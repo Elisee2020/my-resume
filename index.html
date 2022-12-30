@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Eliée BULABULA - Mon Porfolio</title>
+
+		<link rel="apple-touch-icon" sizes="76x76" href="./assets/icons/favicons/safari-pinned-tab.svg" />
+		<link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicons/safari-pinned-tab.svg" />
+		<link rel="icon" type="image/png" sizes="16x16" href="./assets/icons/favicons/safari-pinned-tab.svg" />
+		<link rel="manifest" href="./assets/icons/favicons/site.webmanifest" />
+		<link rel="mask-icon" href="./assets/icons/favicons/safari-pinned-tab.svg" color="#5bbad5" />
+		<meta name="msapplication-TileColor" content="#4E0310" />
+		<meta name="theme-color" content="#ffffff" />
+
+		<meta property="og:image" content="./assets/icons/pic1.png" />
+
+		<meta name="twitter:image" content="./assets/icons/pic1.png" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<link rel="stylesheet" href="./src/styles/main.css" />
+
+		<script src="./src/polyfils/safari-module.js"></script>
+		<script src="./src/js/main.js" defer type="module"></script>
+<!--Typing Method-->
+		
+
+		<style>
+			#scroll-progress {
+				position: fixed;
+				top: 0;
+				width: 0%;
+				height: 6px;
+				background: #4E0310;
+				z-index: 10000;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="overlay"></div>
+		<div id="scroll-progress"></div>
+		<div class="app">
+			<!-- NAVBAR -->
+			<section class="navbar">
+				<div class="container">
+					<div class="logo">
+						<span style="font-size: 30px;"> <a href="#banner">Portfolio</a> </span>
+					</div>
+					<div class="menu" id="menu">
+						<ul>
+							<li><a href="#competences">Compétences</a></li>
+							<li><a href="#formations">Education</a></li>
+							<li><a href="#experiences">Experiences</a></li>
+							<li><a href="graphics-project.html">Projects</a></li>
+							<li><a href="#contacts" id="contactsScroll">Contacts</a></li>
+						</ul>
+					</div>
+					<div style="display: flex">
+						<div class="button">
+							<!-- <span> <img src="./assets/icons/mod.svg" alt="" /> </span> -->
+							<span> <a href="./CV/My resume.pdf" download="Resume" class="btn btn-primary" alt="Télécharger mon CV">Resume</a> </span>
+						</div>
+
+						<div class="menu-mobile" id="menu-mobile">
+							<span>
+								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+							</span>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- BANNER -->
+			<section class="banner animated-on-scroll" id="banner">
+				<div class="container">
+					<div class="text">
+						
+						<span class="subtitle">Apropos de mois</span>
+						<h1 class="">
+							<span style="margin-right: 10px"></span>
+							<div id="typed-strings">
+								<p>Je m'appele Elisee Bulabula</p>
+								<p>Je suis Developpeur web</p>
+								<p>Je suis Graphiste Designer</p>
+								<p>Je suis Freelancer</p>
+							  </div>
+							  <span id="typed"></span>
+						</h1>
+						<p>Développeur logiciel passionné, spécialisé dans le développement web (sites et applications web), Concepteur des supports graphique et d'impression"</p>
+						<div class="button">
+							<span> <a href="./CV/My resume.pdf" download="Mon-CV" class="btn btn-primary" alt="Télécharger mon CV">Mon Resume</a> </span>
+							<span>
+								<ul>
+									<li>
+										<a href="https://github.com/Elisee2020" target="_blank" rel="noopener noreferrer">
+											<img src="./assets/icons/Github.svg" alt="" />
+										</a>
+									</li>
+									<li>
+										<a href="https://www.linkedin.com/in/elisee-bulabula-895616220/" target="_blank" rel="noopener noreferrer">
+											<img src="./assets/icons/Linkedin.svg" alt="" />
+										</a>
+									</li>
+									<li>
+										<a href="https://twitter.com/EliseeBulabula" target="_blank" rel="noopener noreferrer">
+											<img src="./assets/icons/Twitter.svg" alt="" />
+										</a>
+									</li>
+									<li>
+										<a href="https://www.instagram.com/joel.bulabula.5/" target="_blank" rel="noopener noreferrer">
+											<img src="./assets/icons/Instagram.svg" alt="" />
+										</a>
+									</li>
+									<li>
+										<a href="https://www.facebook.com/joel.bulabula.5/?_rdc=1&_rdr" target="_blank" rel="noopener noreferrer">
+											<img src="./assets/icons/icons8-facebook-24.png" alt="" />
+										</a>
+									</li>
+								</ul>
+							</span>
+						</div>
+					</div>
+					<div class="img">
+						<img class="bg" src="./assets/img/profil.jpeg" style="border-radius: 50%;" alt="" />
+					</div>
+				</div>
+			</section>
+
+			<!-- COMPETENCES -->
+			<section class="competences" id="competences">
+				<div class="container">
+					<div style="width: 100%">
+						<div class="animated-on-scroll title">
+							<span>Services</span>
+							<h2>Devellopement Web</h2>
+						</div>
+						<div class="animated-on-scroll data-competences"></div>
+					</div>
+				</div>
+			</section>
+
+			  <section class="competences">
+				<div class="container">
+					<div style="width: 100%">
+						<div class="animated-on-scroll title">
+							<span>Services</span>
+							<h2>Graphic Design</h2>
+							<p>Plus de 5 ans d'experience d'utilisation des logiciels de graphisme comme Adobe Photoshop, Illustrator, InDesign pour la conception des support graphique et d'impression"
+							</p><br><br>
+							<div class="animated-on-scroll">
+								<div class="data-design">
+									<ul>
+										<li>
+											<a href="graphics-project.html"><span>Adobe Photoshop</span><br><br>
+												<img src="./assets/icons/adobe-photoshop-seeklogo.com.svg" 
+												 width="200px" height="200px" alt="" />
+											</a>
+										</li>
+										<li>
+											<a href="graphics-project.html"><span>Adobe Illustrator</span><br><br>
+												<img src="./assets/icons/adobe-illustrator-seeklogo.com.svg"
+												width="200px" height="200px" alt="" />
+											</a>
+										</li>
+										<li>
+											<a href="graphics-project.html"><span>Adobe InDesign</span><br><br>
+												<img src="./assets/icons/adobe-indesign-seeklogo.com.svg" 
+												width="200px" height="200px" alt="" />
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+						</div>
+						<div class="animated-on-scroll data-competences"></div>
+					</div>
+				</div>
+			</section>
+
+			<!-- FORMATIONS -->
+			<section class="formations" id="formations">
+				<div class="container">
+					<div style="width: 100%">
+						<div class="animated-on-scroll title left">
+							<span>Formations</span>
+							<h2>Mes formations</h2>
+						</div>
+
+						<div class="data-formations">
+							<div class="animated-on-scroll timeline-list">
+
+								<div class="block">
+									<h3>Institut Français</h3>
+									<h4>Goma, RD Congo</h4>
+									<p class="">Certicicat - Numerique(JavaScript, applications Mobile, Marketing Digital)</p>
+									<span>Décembre 2022 </span>
+								</div>
+								<div class="block">
+									<h3>ARVR AFRICA</h3>
+									<h4>Goma, RD Congo</h4>
+									<p class="">Certicicat de participation au concours HACKATHON 2022</p>
+									<span>Décembre 2022 </span>
+								</div>
+								<div class="block">
+									<h3>Brothely Training Center</h3>
+									<h4>Goma, RD Congo</h4>
+									<p class="">Certicicat  -  Anglais(British and American)</p>
+									<span> Avril 2022 - Juin 2022</span>
+								</div>
+				
+								<div class="block">
+									<h3>Kigali Independante university</h3>
+									<h4>Gisenyi, Rwanda</h4>
+									<p class="">Bachelor's degree - Computer SCience</p>
+									<span>2017 - 2020</span>
+								</div>
+								<div class="block">
+									<h3>Institut Kyshero</h3>
+									<h4>Goma, RD Congo</h4>
+									<p class="">Diploma's degree - Eléctricité Général</p>
+									<span>2017 - 2010</span>
+								</div>
+							</div>
+							<div class="animated-on-scroll skills">
+								<p>Depuis plus de 5 ans, j'apprends continuellement dans le domaine du front-end et j'expérimente de nouvelles technologies et frameworks, et ici vous pouvez voir un résumé de mes compétences.</p>
+								<div class="skills-block">
+									<div class="skill-block">
+										<h3>HTML5 & CSS3</h3>
+										<div class="level level4"><div></div></div>
+									</div>
+									<div class="skill-block">
+										<h3>JavaScript</h3>
+										<div class="level level2"><div></div></div>
+									</div>
+
+									<div class="skill-block">
+										<h3>UI Design Figma</h3>
+										<div class="level level3"><div></div></div>
+									</div>
+									<div class="skill-block">
+										<h3>Graphics Design Photosphop, Ullustrator, InDesign</h3>
+										<div class="level level4"><div></div></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- EXPERIENCES -->
+			<section class="experiences" id="experiences">
+				<div class="container">
+					<div style="width: 100%">
+						<div class="animated-on-scroll title">
+							<span>Experiences</span>
+							<h2>Experiences profetionnelle</h2>
+						</div>
+						<div class="animated-on-scroll text">
+							<p>Plus d’infos dans mon CV, téléchargeable sur ce lien directement</p>
+							<p class="button">
+								<span> <a href="./CV/My resume.pdf" download="Resume" class="btn btn-primary" alt="Télécharger mon CV">Resumes</a> </span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- CONTACTS -->
+			<section class="contacts" id="contacts">
+				<div class="container">
+					<div class="animated-on-scroll" style="width: 100%">
+						<div class="title left">
+							<span>Langage</span>
+							<h2>Langues parlées</h2>
+						</div>
+
+						<div class="lang">
+							<h3>
+								Englais
+								<div></div>
+							</h3>
+							<h3>
+								Francais
+								<div></div>
+							</h3>
+							<h3>Swahili</h3>
+						</div>
+					</div>
+					<div class="animated-on-scroll contacts-infos">
+						<div class="contact-infos">
+							<div class="icon">
+								<img src="./assets/icons/Icon-4.svg" alt="" />
+							</div>
+							<div class="text">
+								<h3>Address</h3>
+								<p>Goma, RD Congo</p>
+							</div>
+						</div>
+						<div class="contact-infos">
+							<div class="icon">
+								<img src="./assets/icons/Icon-5.svg" alt="" />
+							</div>
+							<div class="text">
+								<h3>Phone</h3>
+								<p><a target="_blank" href="https://api.whatsapp.com/send?phone=+243975041411&text="> +243 975041411 </a></p>
+							</div>
+						</div>
+
+						<div class="contact-infos">
+							<div class="icon">
+								<img src="./assets/icons/Icon-3.svg" alt="" />
+							</div>
+							<div class="text">
+								<h3>Email</h3>
+								<p>
+									<a href="mailto:vincent.asani@pm.me"> bulaelisee758@gmail.com </a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- FOOTER -->
+			<section class="footer">
+				<div class="container">
+					<div style="width: 100%">
+						<footer class="animated-on-scroll">
+							<div>
+								<h3 style="text-align: center;">Suivez-moi sur :</h3><br>
+							</div>
+							<div>
+								<ul>
+									<li>
+										<a href="http://https://github.com/Elisee2020" target="_blank" rel="noopener noreferrer">
+											<img src="./assets/icons/Github.svg" alt="" />
+										</a>
+									</li>
+									<li>
+										<a href="https://www.linkedin.com/in/elisee-bulabula-895616220/" target="_blank" rel="noopener noreferrer">
+											<img src="./assets/icons/Linkedin.svg" alt="" />
+										</a>
+									</li>
+									<li>
+										<a href="https://twitter.com/EliseeBulabula" target="_blank" rel="noopener noreferrer">
+											<img src="./assets/icons/Twitter.svg" alt="" />
+										</a>
+									</li>
+									<li>
+										<a href="https://www.instagram.com/joel.bulabula.5/" target="_blank" rel="noopener noreferrer">
+											<img src="./assets/icons/Instagram.svg" alt="" />
+										</a>
+									</li>
+									<li>
+										<a href="https://www.facebook.com/joel.bulabula.5/?_rdc=1&_rdr" target="_blank" rel="noopener noreferrer">
+											<img src="./assets/icons/icons8-facebook-24.png" alt="" />
+										</a>
+									</li>
+								</ul>
+
+								<div class="signature">
+									<span>© CopyRight 2022 - Eliée BULABULA</span>
+								</div>
+							</div>
+						</footer>
+					</div>
+				</div>
+			</section>
+		</div>
+
+		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+		<script>
+			var typed = new Typed('#typed', {
+			  stringsElement: '#typed-strings',
+			  typeSpeed: 60,
+			  backSpeed: 60,
+			  loop: true,
+              loopCount: Infinity,
+			});
+		  </script>
+	</body>
+</html>
